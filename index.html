@@ -36,7 +36,7 @@
         <div class="recipe">
             <div class="rinner">
                 <div class="front">
-                    <img src="/Users/rakeshdora/Documents/Edu/HTML/edx projects/carbonara.jpeg" alt="Spaghetti Carbonara">
+                    <img src="carbonara.jpeg" alt="Spaghetti Carbonara">
                     <h2>Spaghetti Carbonara</h2>
                 </div>
                 <div class="back">
@@ -48,7 +48,7 @@
         <div class="recipe">
             <div class="rinner">
                 <div class="front">
-                    <img src="/Users/rakeshdora/Documents/Edu/HTML/edx projects/pancake.jpeg" alt="Pancakes">
+                    <img src="pancake.jpeg" alt="Pancakes">
                     <h2>Pancakes</h2>
                 </div>
                 <div class="back">
@@ -60,7 +60,7 @@
         <div class="recipe">
             <div class="rinner">
                 <div class="front">
-                    <img src="/Users/rakeshdora/Documents/Edu/HTML/edx projects/grilled_chicken.jpeg" alt="Grilled Chicken">
+                    <img src="grilled_chicken.jpeg" alt="Grilled Chicken">
                     <h2>Grilled Chicken</h2>
                 </div>
                 <div class="back">
@@ -72,7 +72,7 @@
         <div class="recipe">
             <div class="rinner">
                 <div class="front">
-                    <img src="/Users/rakeshdora/Documents/Edu/HTML/edx projects/caesar.jpeg" alt="Caesar Salad">
+                    <img src="caesar.jpeg" alt="Caesar Salad">
                     <h2>Caesar Salad</h2>
                 </div>
                 <div class="back">
@@ -84,7 +84,7 @@
         <div class="recipe">
             <div class="rinner">
                 <div class="front">
-                    <img src="/Users/rakeshdora/Documents/Edu/HTML/edx projects/veg_stir.jpeg" alt="Veggie Stir Fry">
+                    <img src="veg_stir.jpeg" alt="Veggie Stir Fry">
                     <h2>Veggie Stir Fry</h2>
                 </div>
                 <div class="back">
@@ -96,7 +96,7 @@
         <div class="recipe">
             <div class="rinner">
                 <div class="front">
-                    <img src="/Users/rakeshdora/Documents/Edu/HTML/edx projects/garlic_bread.jpeg" alt="Garlic Bread">
+                    <img src="garlic_bread.jpeg" alt="Garlic Bread">
                     <h2>Garlic Bread</h2>
                 </div>
                 <div class="back">
@@ -108,7 +108,7 @@
         <div class="recipe">
             <div class="rinner">
                 <div class="front">
-                    <img src="/Users/rakeshdora/Documents/Edu/HTML/edx projects/tomato.jpeg" alt="Tomato Soup">
+                    <img src="tomato.jpeg" alt="Tomato Soup">
                     <h2>Tomato Soup</h2>
                 </div>
                 <div class="back">
@@ -120,7 +120,7 @@
         <div class="recipe">
             <div class="rinner">
                 <div class="front">
-                    <img src="/Users/rakeshdora/Documents/Edu/HTML/edx projects/tacos.jpeg" alt="Tacos">
+                    <img src="tacos.jpeg" alt="Tacos">
                     <h2>Tacos</h2>
                 </div>
                 <div class="back">
@@ -132,7 +132,7 @@
         <div class="recipe">
             <div class="rinner">
                 <div class="front">
-                    <img src="/Users/rakeshdora/Documents/Edu/HTML/edx projects/cheesecake.jpeg" alt="Cheesecake">
+                    <img src="cheesecake.jpeg" alt="Cheesecake">
                     <h2>Cheesecake</h2>
                 </div>
                 <div class="back">
@@ -180,9 +180,9 @@
                 recipes.forEach(recipe => {
                     const title = recipe.querySelector("h2").innerText.toLowerCase();
                     if (title.includes(searchText)) {
-                        recipe.style.display = "block"; // Show matching recipes
+                        recipe.style.display = "block"; 
                     } else {
-                        recipe.style.display = "none"; // Hide non-matching recipes
+                        recipe.style.display = "none"; 
                     }
                 });
             });
@@ -199,9 +199,9 @@
                 recipes.forEach(recipe => {
                     const title = recipe.querySelector("h2").innerText.toLowerCase();
                     if (title.includes(searchText)) {
-                        recipe.style.display = "block"; // Show matching recipes
+                        recipe.style.display = "block"; 
                     } else {
-                        recipe.style.display = "none"; // Hide non-matching recipes
+                        recipe.style.display = "none"; 
                     }
                 });
             });
