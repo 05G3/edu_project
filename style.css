@@ -65,7 +65,7 @@ footer {
     font-size: 1.5rem;
 }
 .bg{
-    background-image: url('/Users/rakeshdora/Documents/Edu/HTML/edx projects/hd_image_20250321_212618.png'); 
+    background-image: url('hd_image_20250321_212618.png'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
